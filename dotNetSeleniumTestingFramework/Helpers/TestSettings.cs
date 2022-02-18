@@ -38,7 +38,7 @@ namespace dotNetSeleniumTestingFramework.Helpers
         public bool RunAsHeadless { get; set; } = false;
 
         [JsonProperty("ImplicitWaitTimeout", Required = Required.Always)]
-        private static readonly int implicitWaitTimeout;
+        private static int implicitWaitTimeout;
 
         [JsonIgnore]
         public static TimeSpan DefaultImplicitWaitTimeout => TimeSpan.FromSeconds(implicitWaitTimeout);

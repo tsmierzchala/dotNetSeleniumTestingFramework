@@ -6,5 +6,9 @@ namespace dotNetSeleniumTestingFramework.Pages
 {
     public class BingHomePage
     {
+        public void SearchForText(string p0)
+        {
+            List<string> results = new List<string>();
+        }
     }
 }

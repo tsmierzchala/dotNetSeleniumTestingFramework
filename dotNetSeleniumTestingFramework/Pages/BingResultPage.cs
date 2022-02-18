@@ -6,5 +6,9 @@ namespace dotNetSeleniumTestingFramework.Pages
 {
     public class BingResultPage
     {
+        public List<string> GetFirstThreeResults()
+        {
+            return new List<string>();
+        }
     }
 }
